@@ -44,7 +44,7 @@ For example, if you write a function that fetches some data from the API:
 ```
 It would be bad practice to create another function in a separate class/module, that also fetches data from the API and name it "getProducts()" for instance. In this case, we use multiple concepts - fetch and get to express the same functionality.
 
-### 3.Avoid giving too much context to a name
+### 3. Avoid giving too much context to a name
 Giving too much or too little context to a name are a bad practice. What I mean by too much context is when developers tend to name variables in a way that makes you ask why was it necessary to go that far with namings.
 
 Let's assume we have the following class: (Note: This example is going to be a BrighterScript example, that's why I'm involving classes.)
@@ -58,3 +58,7 @@ Let's assume we have the following class: (Note: This example is going to be a B
     end class
 ```
 In this case, there is no point in naming the variable that stores the customer's age customerAge. Since we are inside the Customer class, it's pretty clear that all the concepts inside this class are customer related, so offering this type of context, in this case, is not clean.
+
+## Chapter III. Functions
+
+### 1. Functions should be small and on point
